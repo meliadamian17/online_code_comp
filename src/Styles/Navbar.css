@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 50px;
+    text-align: center;
+    color: #007acc;
+    background-color: 	#252526;
+    gap: 20px;
+}
+#no{
+    height: 36px;
+    width: 80px;
+    font-size: 12px;
+    color: #252526;
+    border: 1px solid #007acc;
+    border-radius: 4px;
+    background-color: #252526;
+}
+#no:focus{
+    outline: none;
+}
+.css-2b097c-container{
+    width: 120px;
+    color: black;
+    background-color: #252526;
+}
+.css-yk16xz-control{
+    background-color: #252526 !important;
+    border-color: #007acc !important;
+}
