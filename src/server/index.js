@@ -1,9 +1,13 @@
+import require from 'requirejs';
 
 const express = require("express");
 const cors = require("cors");
 const Axios = require("axios");
 const app = express();
 const PORT = 8000;
+//read the API key from the .env file
+require('dotenv').config();
+
  
 app.use(cors());
 app.use(express.json());
