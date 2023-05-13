@@ -29,7 +29,7 @@ app.post("/compile", (req, res) => {
         url: 'https://codex7.p.rapidapi.com/',
         headers: {
             'Content-Type': 'application/json',
-            'X-RapidAPI-Key': '2d3fdba44bmsh06620a5eba97cdep17db43jsn93866755a7df',
+            'X-RapidAPI-Key': 'key',
             'X-RapidAPI-Host': 'codex7.p.rapidapi.com'
         },
         data: data
